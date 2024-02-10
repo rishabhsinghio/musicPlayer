@@ -100,7 +100,7 @@ async function getVideoInfo(videoUrl) {
       title: videoInfo.videoDetails.title,
       author: videoInfo.videoDetails.author.name,
       thumbnail: thumbnail,
-      audioUrl: `https://62bedea9-ad89-47e3-bc52-2a4ec341c8c7-00-1f2fcehxk8v8g.riker.replit.dev/playMP3?url=${videoUrl}`,
+      audioUrl: `https://rose-remarkable-celsius.glitch.me/playMP3?url=${videoUrl}`,
     };
   } catch (error) {
     console.error('Error fetching video information:', error.message);
