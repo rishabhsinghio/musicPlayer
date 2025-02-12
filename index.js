@@ -42,7 +42,7 @@ app.use(express.static('public'));
 app.use(express.json()); // Parse JSON data
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '/main.html'));
+  res.sendFile(path.join(__dirname, '/index.html'));
 });
 
 app.post('/update', async (req, res) => {
